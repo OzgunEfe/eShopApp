@@ -16,6 +16,7 @@
 		8666C7292C5EBCA000799416 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8666C7282C5EBCA000799416 /* CartButton.swift */; };
 		8666C72B2C5EBE9E00799416 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8666C72A2C5EBE9E00799416 /* CartView.swift */; };
 		8666C72D2C5EC05B00799416 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8666C72C2C5EC05B00799416 /* CartManager.swift */; };
+		8666C72F2C5EC3DD00799416 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8666C72E2C5EC3DD00799416 /* ProductRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8666C7282C5EBCA000799416 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		8666C72A2C5EBE9E00799416 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		8666C72C2C5EC05B00799416 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		8666C72E2C5EC3DD00799416 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				8666C7252C5EB46800799416 /* ProductCard.swift */,
 				8666C7282C5EBCA000799416 /* CartButton.swift */,
+				8666C72E2C5EC3DD00799416 /* ProductRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				8666C7142C5EAE7400799416 /* eShopAppApp.swift in Sources */,
 				8666C7232C5EB31400799416 /* Product.swift in Sources */,
 				8666C72D2C5EC05B00799416 /* CartManager.swift in Sources */,
+				8666C72F2C5EC3DD00799416 /* ProductRow.swift in Sources */,
 				8666C7262C5EB46800799416 /* ProductCard.swift in Sources */,
 				8666C72B2C5EBE9E00799416 /* CartView.swift in Sources */,
 				8666C7292C5EBCA000799416 /* CartButton.swift in Sources */,
