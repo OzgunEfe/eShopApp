@@ -12,14 +12,18 @@ struct ContentView: View {
     
     
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: columns, spacing: 20) {
-                ForEach(productList, id: \.id) { product in
-                    ProductCard(product: product)
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: columns, spacing: 20) {
+                    ForEach(productList, id: \.id) { product in
+                        ProductCard(product: product)
+                    }
                 }
+                .padding()
             }
-            .padding()
+            .navigationTitle(Text("Sweater Shop"))
         }
+        .navigationViewStyle(StackNavigationViewStyle())
         
     }
 }
