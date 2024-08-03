@@ -22,6 +22,14 @@ struct ContentView: View {
                 .padding()
             }
             .navigationTitle(Text("Sweater Shop"))
+            .toolbar {
+                NavigationLink {
+                    CartView()
+                } label: {
+                    CartButton(numberOfProducts: 1)
+                }
+                
+            }
         }
         .navigationViewStyle(StackNavigationViewStyle())
         

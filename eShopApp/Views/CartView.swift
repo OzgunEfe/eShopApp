@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CardView: View {
+struct CartView: View {
     var body: some View {
         ScrollView{
             Text("Your cart is empty.")
@@ -18,5 +18,5 @@ struct CardView: View {
 }
 
 #Preview {
-    CardView()
+    CartView()
 }

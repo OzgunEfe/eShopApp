@@ -1,5 +1,5 @@
 //
-//  CardButton.swift
+//  CartButton.swift
 //  eShopApp
 //
 //  Created by Ozgun Efe on 03/08/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CardButton: View {
+struct CartButton: View {
     var numberOfProducts: Int
     
     
@@ -30,5 +30,5 @@ struct CardButton: View {
 }
 
 #Preview {
-    CardButton(numberOfProducts: 1)
+    CartButton(numberOfProducts: 1)
 }
