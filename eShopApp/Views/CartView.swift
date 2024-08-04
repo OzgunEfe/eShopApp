@@ -40,7 +40,7 @@ struct CartView: View {
         .padding(.top)
         .onDisappear{
             if cartManager.paymentSuccess {
-                cartManager.pa
+                cartManager.paymentSuccess = false
             }
         }
     }
