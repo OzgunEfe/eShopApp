@@ -72,8 +72,8 @@ class PaymentHandler: NSObject {
         paymentRequest.paymentSummaryItems = paymentSummaryItems // Set paymentSummaryItems to the paymentRequest
         paymentRequest.merchantIdentifier = "merchant.io.designcode.sweatershopapp"
         paymentRequest.merchantCapabilities = .threeDSecure // A security protocol used to authenticate users
-        paymentRequest.countryCode = "US"
-        paymentRequest.currencyCode = "USD"
+        paymentRequest.countryCode = "UK"
+        paymentRequest.currencyCode = "GBP"
         paymentRequest.supportedNetworks = PaymentHandler.supportedNetworks // Types of cards supported
         paymentRequest.shippingType = .delivery
         paymentRequest.shippingMethods = shippingMethodCalculator()
