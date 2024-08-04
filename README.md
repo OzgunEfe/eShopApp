@@ -11,7 +11,7 @@ eShopApp is an iOS shopping application built with SwiftUI. It allows users to b
 
 - **Item Browsing and Purchase**: Explore a selection of products available for purchase.
 - **Shopping Cart Management**: Add items to your cart or remove them as needed. The cart view displays selected items along with their prices and the total price.
-- **Apple Pay Integration**: Easily complete purchases using Apple Pay. Please note that to test Apple Pay, you need an Apple Developer account. For security reasons, my account details are not included in this app.
+- **Apple Pay Integration**: Easily complete purchases using Apple Pay. Please note that to test Apple Pay, you need an Apple Developer account. For security reasons, account details are not included in this app.
 
 ## Getting Started
 
