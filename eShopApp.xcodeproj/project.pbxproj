@@ -18,6 +18,7 @@
 		8666C72D2C5EC05B00799416 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8666C72C2C5EC05B00799416 /* CartManager.swift */; };
 		8666C72F2C5EC3DD00799416 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8666C72E2C5EC3DD00799416 /* ProductRow.swift */; };
 		8691B3BC2C5F818B009FEFD2 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691B3BB2C5F818B009FEFD2 /* PaymentButton.swift */; };
+		8691B3BE2C5F8A3A009FEFD2 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691B3BD2C5F8A3A009FEFD2 /* PaymentHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		8666C72C2C5EC05B00799416 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		8666C72E2C5EC3DD00799416 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 		8691B3BB2C5F818B009FEFD2 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		8691B3BD2C5F8A3A009FEFD2 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				8666C7172C5EAE7500799416 /* Assets.xcassets */,
 				8666C7192C5EAE7500799416 /* Preview Content */,
 				8666C72C2C5EC05B00799416 /* CartManager.swift */,
+				8691B3BD2C5F8A3A009FEFD2 /* PaymentHandler.swift */,
 			);
 			path = eShopApp;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8691B3BC2C5F818B009FEFD2 /* PaymentButton.swift in Sources */,
+				8691B3BE2C5F8A3A009FEFD2 /* PaymentHandler.swift in Sources */,
 				8666C7162C5EAE7400799416 /* ContentView.swift in Sources */,
 				8666C7142C5EAE7400799416 /* eShopAppApp.swift in Sources */,
 				8666C7232C5EB31400799416 /* Product.swift in Sources */,
