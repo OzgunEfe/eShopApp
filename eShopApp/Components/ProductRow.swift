@@ -33,7 +33,7 @@ struct ProductRow: View {
                 .frame(width: 24, height: 24)
                 .padding(.leading, 12)
                 .onTapGesture {
-                    cartManager.removeFromCard(product: product)
+                    cartManager.removeFromCart(product: product)
                 }
             
         }

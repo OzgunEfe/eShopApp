@@ -16,9 +16,11 @@ class CartManager: ObservableObject {
         total += product.price
     }
     
-    func removeFromCard(product: Product) {
-        products = products.filter{ $0.id != product.id }
-        total -= product.price
-        
+    func removeFromCart(product: Product) {
+        if let index = products.firstIndex(where: { $0.id == product.id }) {
+            products.remove(at: index)
+            total -= product.price
+        }
     }
 }
+
