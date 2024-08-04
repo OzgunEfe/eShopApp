@@ -11,27 +11,38 @@ struct CartView: View {
     @EnvironmentObject var cartManager: CartManager
     var body: some View {
         ScrollView{
-            if cartManager.products.count > 0 {
-                ForEach(cartManager.products, id: \.id) { product in
-                    ProductRow(product: product)
-                }
-                
-                HStack{
-                    Text("Your cart total is:")
-                    Spacer()
-                    Text("£\(cartManager.total)")
-                        .bold()
-                }
-                .padding()
-                
-                PaymentButton(action: {})
-                
+            if cartManager.paymentSuccess {
+                Text("Thanks for your purchase!")
+                    .padding()
             } else {
-                Text("Your cart is empty.")
+                if cartManager.products.count > 0 {
+                    ForEach(cartManager.products, id: \.id) { product in
+                        ProductRow(product: product)
+                    }
+                    
+                    HStack{
+                        Text("Your cart total is:")
+                        Spacer()
+                        Text("£\(cartManager.total)")
+                            .bold()
+                    }
+                    .padding()
+                    
+                    PaymentButton(action: cartManager.pay)
+                    
+                } else {
+                    Text("Your cart is empty.")
+                }
             }
+
         }
         .navigationTitle(Text("My Cart"))
         .padding(.top)
+        .onDisappear{
+            if cartManager.paymentSuccess {
+                cartManager.pa
+            }
+        }
     }
 }
 

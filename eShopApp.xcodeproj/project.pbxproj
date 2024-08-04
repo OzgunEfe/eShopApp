@@ -19,6 +19,7 @@
 		8666C72F2C5EC3DD00799416 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8666C72E2C5EC3DD00799416 /* ProductRow.swift */; };
 		8691B3BC2C5F818B009FEFD2 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691B3BB2C5F818B009FEFD2 /* PaymentButton.swift */; };
 		8691B3BE2C5F8A3A009FEFD2 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691B3BD2C5F8A3A009FEFD2 /* PaymentHandler.swift */; };
+		8691B3C22C5F9411009FEFD2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8691B3C12C5F9411009FEFD2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		8666C72E2C5EC3DD00799416 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 		8691B3BB2C5F818B009FEFD2 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
 		8691B3BD2C5F8A3A009FEFD2 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		8691B3C12C5F9411009FEFD2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		8666C7072C5EAE7400799416 = {
 			isa = PBXGroup;
 			children = (
+				8691B3C12C5F9411009FEFD2 /* README.md */,
 				8666C7122C5EAE7400799416 /* eShopApp */,
 				8666C7112C5EAE7400799416 /* Products */,
 			);
@@ -173,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8691B3C22C5F9411009FEFD2 /* README.md in Resources */,
 				8666C71B2C5EAE7500799416 /* Preview Assets.xcassets in Resources */,
 				8666C7182C5EAE7500799416 /* Assets.xcassets in Resources */,
 			);
